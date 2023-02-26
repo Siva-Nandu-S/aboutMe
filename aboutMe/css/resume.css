@@ -1,0 +1,57 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(202, 176, 6);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(126, 131, 130);
+    font-size: medium;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(216, 216, 56);
+    font-size: large;
+    font-weight: 400;
+}
+
+.leftAlign {
+    padding-left: 2rem;
+}
+
+.edu-head {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.edu-items {
+    list-style: none;
+    padding-left: 5rem;
+}
+
+.edu-item {
+    padding-top: 1rem;
+}
+
+.skill {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.skillset {
+    list-style: none;
+}
+
+.interest-item {
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+}
+
+.year {
+    font-weight: 300;
+    font-style: oblique;
+}
