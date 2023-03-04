@@ -1,57 +1,114 @@
-body {
-    font-family: "Nunito", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    background: #000;
 }
 
-#mainNavbar .navbar-brand {
-    color: rgb(202, 176, 6);
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+nav .about-me-brand {
+    text-decoration: none;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 127, 225);
+    padding: 0 7%;
 }
 
-#mainNavbar .nav-link {
-    color: rgb(126, 131, 130);
-    font-size: medium;
+nav .about-me-brand :hover {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(154, 108, 226);
+    padding: 0 7%;
 }
 
-#mainNavbar .nav-link:hover {
-    color: rgb(216, 216, 56);
-    font-size: large;
-    font-weight: 400;
+nav img {
+    display: flex;
+    width: 10%;
 }
 
-.leftAlign {
-    padding-left: 2rem;
-}
-
-.edu-head {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.edu-items {
+nav ul li {
+    display: inline-block;
     list-style: none;
-    padding-left: 5rem;
+    margin: 10px 30px;
 }
 
-.edu-item {
-    padding-top: 1rem;
-}
-
-.skill {
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-}
-
-.skillset {
-    list-style: none;
-}
-
-.interest-item {
-    padding-bottom: 0.5rem;
-    padding-left: 2rem;
-}
-
-.year {
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
     font-weight: 300;
     font-style: oblique;
+    display: flex;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #6913e1;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.main-heading {
+    padding: 8% 2%;
+    height: 100vh;
+    background-image: url(image/giphy\ \(6\).gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main-heading h1 {
+    color: #fff;
+    background: none;
+    padding: 0 12%;
+    font-size: 10rem;
+}
+
+.main .item-head {
+    color: #fff;
+    padding: 0 15%;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.main .h2 {
+    color: #fff;
+    padding: 2% 12%;
+    background: none;
+}
+
+.main .education .item-head .name {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.main .education .item-head .year {
+    font-size: 1.1rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.main .skills .item-head .item {
+    padding: 1% 0;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.main .projects .item-head .items {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.main .projects .item-head .items .inner-item {
+    font-weight: 200;
+    padding: 1% 5%;
 }
