@@ -1,26 +1,100 @@
-html,
-body {
-    font-family: "Nunito", sans-serif;
+* {
+    background: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-#mainNavbar .navbar-brand {
-    color: rgb(202, 176, 6);
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+nav .about-me-brand {
+    text-decoration: none;
     font-size: 1.5rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 127, 225);
+    padding: 0 7%;
+}
+
+nav .about-me-brand :hover {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(154, 108, 226);
+    padding: 0 7%;
+}
+
+nav img {
+    display: flex;
+    width: 10%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
     font-weight: 300;
+    font-style: oblique;
+    display: flex;
 }
 
-#mainNavbar .nav-link {
-    color: rgb(126, 131, 130);
-    font-size: medium;
+nav ul li a:hover {
+    text-decoration: none;
+    color: #6913e1;
+    font-weight: 300;
+    font-style: oblique;
+    font-size: 50%;
+    display: flex;
 }
 
-#mainNavbar .nav-link:hover {
-    color: rgb(216, 216, 56);
-    font-size: large;
-    font-weight: 400;
+.welcome {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/4338859.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    padding: 0 8%;
 }
 
-.homeImage1 {
-    height: fit-content;
-    width: max-content;
+.welcome h1 {
+    font-size: 72px;
+    background: none;
+    padding: 10% 0;
+}
+
+.welcome h1:hover {
+    font-size: 72px;
+    background: none;
+    color: #f6f6f6;
+}
+
+.main {
+    display: inline;
+    color: #f6f6f6;
+    background: none;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image {
+    width: fit-content;
+    width: 50vh;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
